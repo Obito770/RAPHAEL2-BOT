@@ -1,6 +1,6 @@
 { 
-    "name": "raphael",
-    "version": "1.6.15",
+    "name": "ASTA-BOT",
+    "version": "2.0.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
     "type": "module",
@@ -26,24 +26,27 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/DK3MK/RAPHAEL2-BOT",
+    "homepage": "https://github.com/Obito770/ASTA-BOT",
     "author": {
         "name": "raphael"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DK3MK/RAPHAEL2-BOT.git"
+        "url": "git+https://github.com/Obito770/ASTA-BOT.git"
     },
     "bugs": {
-        "url": "https://github.com/DK3MK/RAPHAEL2-BOT/issues"
+        "url": "https://github.com/Obito770/ASTA-BOT/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "firebase-admin": "^12.0.0",
-        "google-it": "^1.6.4",
+        "@whiskeysockets/baileys": "^6.6.0",
         "@adiwajshing/baileys": "npm:@whiskeysockets/baileys",
+        "google-play-scraper": "^10.0.0",
+        "@sasmeee/igdl":"^1.0.0",
+        "@xct007/frieren-scraper":"github:xct007/frieren-scraper",
+        "google-it": "^1.6.4",
         "@adiwajshing/keyed-db": "^0.2.4",
-        "@bochilteam/scraper": "github:DK3MK/scraper",
+        "@bochilteam/scraper": "^3.0.0",
         "@vitalets/google-translate-api": "^8.0.0",
         "awesome-phonenumber": "^3.4.0",
         "acrcloud": "^1.4.0",
@@ -105,6 +108,7 @@
         "yargs": "^17.6.0",
         "ytdl-core": "npm:@distube/ytdl-core",
         "wa-sticker-formatter": "^4.3.2",
+        "genius-lyrics": "*",
         "@xct007/frieren-scraper": "*",
         "@xct007/tiktok-scraper": "*"
        
